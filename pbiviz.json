@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "runningTotalStackedBarChart",
+        "displayName": "RunningTotalStackedBarChart",
+        "guid": "runningTotalStackedBarChart89051641B8C54F7B915A7006A37DE0CE",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Stacked Column Chart with Running Total",
+        "supportUrl": "https://github.com/Samandar1820121231",
+        "gitHubUrl": "https://github.com/Samandar1820121231"
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "Samandar",
+        "email": "olimjonovsamandar3@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

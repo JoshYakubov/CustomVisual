@@ -1,0 +1,4 @@
+import powerbiVisualsApi from "powerbi-visuals-api";
+import IVisualPlugin = powerbiVisualsApi.visuals.plugins.IVisualPlugin;
+declare var runningTotalStackedBarChart89051641B8C54F7B915A7006A37DE0CE: IVisualPlugin;
+export default runningTotalStackedBarChart89051641B8C54F7B915A7006A37DE0CE;

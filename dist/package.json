@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Samandar","email":"olimjonovsamandar3@gmail.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/runningTotalStackedBarChart89051641B8C54F7B915A7006A37DE0CE.pbiviz.json"
+			}
+		],
+		"visual": {"name":"runningTotalStackedBarChart","displayName":"RunningTotalStackedBarChart","guid":"runningTotalStackedBarChart89051641B8C54F7B915A7006A37DE0CE","visualClassName":"Visual","version":"1.0.0.0","description":"Stacked Column Chart with Running Total","supportUrl":"https://github.com/Samandar1820121231","gitHubUrl":"https://github.com/Samandar1820121231"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

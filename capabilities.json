@@ -1,0 +1,44 @@
+{
+    "dataRoles": [
+      {
+        "name": "category",
+        "kind": "Grouping",
+        "displayName": "X-Axis (Quarter)"
+      },
+      {
+        "name": "series",
+        "kind": "Grouping",
+        "displayName": "Legend (Category)"
+      },
+      {
+        "name": "measure",
+        "kind": "Measure",
+        "displayName": "Value"
+      }
+    ],
+    "dataViewMappings": [
+      {
+        "categorical": {
+          "categories": {
+            "for": { "in": "category" },
+            "dataReductionAlgorithm": { "top": {} }
+          },
+          "values": {
+            "group": {
+              "by": "series",
+              "select": [{ "for": { "in": "measure" } }],
+              "dataReductionAlgorithm": { "top": {} }
+            }
+          }
+        }
+      }
+    ],
+    "supportsHighlight": true,
+    "sorting": {
+      "default": {},
+      "custom": {}
+    },
+    "privileges": [],
+    "objects": {}
+  }
+  
